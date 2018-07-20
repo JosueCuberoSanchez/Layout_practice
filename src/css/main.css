@@ -1,5 +1,9 @@
 /* Base styles */
 
+* {
+    box-sizing: border-box
+}
+
 body {
     padding: 2%;
 }
@@ -36,7 +40,7 @@ header div {
 .info-box {
     border: 1px black solid;
     float: left;
-    width: 22.9%;
+    width: 18%;
     margin-right: 1.9%;
     margin-bottom: 27px;
     padding: 50px 0 100px;
@@ -49,11 +53,11 @@ header div {
 }
 
 .large-width {
-    width: 35.5%;
+    width: 38%;
 }
 
 .margin-large-width {
-    margin-right: 2.2%;
+    margin-right: 2%;
 }
 
 main {
@@ -63,6 +67,27 @@ main {
 .footer {
     padding: 50px 40%;
     border: 1px black solid; 
+}
+
+@media screen and (max-width: 992px) {
+    .info-box {
+        width: 49%;
+        margin: 10px 0;
+    }
+    .secondary {
+        margin-left: 1.5%; 
+    }
+    .large-height{
+        padding-bottom: 290px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .info-box {
+        float: none;
+        width: 100%;
+        margin: 30px 0;
+    }
 }
 
 /* Clearfix */
