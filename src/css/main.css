@@ -1,0 +1,77 @@
+/* Base styles */
+
+body {
+    padding: 2%;
+}
+
+body, p {
+    margin: 0;
+}
+
+/* Custom styles */ 
+
+header {
+    padding-bottom: 20px;
+}
+
+header div {
+    width: 50%;
+    float: left;
+}
+
+.navigation-menu p {
+    float: right;
+}
+
+.content-slider {
+    border: 1px black solid;
+    padding: 50px 40%;
+    margin-bottom: 27px;
+}
+
+.content-slider p, .info-box p {
+    text-align: center;
+}
+
+.info-box {
+    border: 1px black solid;
+    float: left;
+    width: 22.9%;
+    margin-right: 1.9%;
+    margin-bottom: 27px;
+    padding: 50px 0 100px;
+}
+
+.large-height {
+    margin-right: 0;
+    padding: 50px 0 297px;
+    float: right;
+}
+
+.large-width {
+    width: 35.5%;
+}
+
+.margin-large-width {
+    margin-right: 2.2%;
+}
+
+main {
+    margin-bottom: 10px;
+}
+
+.footer {
+    padding: 50px 40%;
+    border: 1px black solid; 
+}
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
