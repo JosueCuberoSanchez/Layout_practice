@@ -41,7 +41,7 @@ header div {
     border: 1px black solid;
     float: left;
     width: 18%;
-    margin-right: 1.9%;
+    margin-right: 2.5%;
     margin-bottom: 27px;
     padding: 50px 0 100px;
 }
@@ -53,11 +53,7 @@ header div {
 }
 
 .large-width {
-    width: 38%;
-}
-
-.margin-large-width {
-    margin-right: 2%;
+    width: 38.5%;
 }
 
 main {
@@ -69,13 +65,15 @@ main {
     border: 1px black solid; 
 }
 
+/* Media queries for responsive layout */
+
 @media screen and (max-width: 992px) {
     .info-box {
         width: 49%;
         margin: 10px 0;
     }
     .secondary {
-        margin-left: 1.5%; 
+        margin-left: 2%; 
     }
     .large-height{
         padding-bottom: 290px;
